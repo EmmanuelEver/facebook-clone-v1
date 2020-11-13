@@ -1,0 +1,195 @@
+.profileHeaderCover{
+	width: 100%;
+	position: relative;
+	height: 330px;
+	margin-bottom: 10px;
+}
+.profileHeaderCover__coverPhoto{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.profileHeaderCover__coverPhoto img{
+	width: 100%;
+	object-fit: cover;
+}
+.profileHeaderCover__profilePhoto{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	box-sizing: border-box;
+}
+.profileHeaderCover__profilePhoto__container{
+	padding: 5px;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+	border-radius: 50%;
+}
+.profilePhoto__avatar{
+	height: 100%;
+	width: 100%;
+}
+.profilePhoto__avatar img{
+	width: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+.profileHeaderCover__editProfileButtion{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 8px;
+	box-sizing: border-box;
+	background-color:rgba(255, 255, 255, .8);
+	cursor: pointer;
+}
+
+.profileHeaderCover__editCoverPhoto{
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	width: 100%;
+	padding: 0 30px;
+	box-sizing: border-box;
+	display:flex;
+	justify-content: flex-end;
+}
+
+
+.profileHeaderCover__editCoverPhoto__button{
+	background-color:rgba(0, 0, 0, 0.05);
+	padding: 10px 15px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 10px;
+	line-height: 1;
+	position: relative;
+
+}
+.profileHeaderCover__editCoverPhoto__button svg{
+	margin-right: 5px;
+}
+
+.profileHeaderCover__editCoverPhoto__options{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(0%, 100%);
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 150%;
+	border-radius: 15px;
+	border: 1px solid lightgrey;
+}
+.profileHeaderCover__editCoverPhoto__option{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+.profileHeaderCover__editCoverPhoto__option svg{
+	margin-right: 8px;
+}
+.editCoverModal__body{
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.editCoverModal__photos{
+	display: flex;
+	flex-wrap: wrap;
+}
+.editCoverModal__photo{
+	width: 100px;
+	height: 100px;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.profileHeaderCover__edit__actions{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
+.profileHeaderCover__edit__actions button{
+	padding: 10px 15px;
+	box-shadow: 0px 5px 7px -7px rgba(0,0,0,.15);
+	border: none;
+	background-color: #fff;
+	border-radius: 8px;
+	margin: 0 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.profileHeaderCover__edit__actions button:hover{
+	background-color: rgba(0,0,0,.1);
+}
+.editModal__uploadPhoto{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.editModal__uploadPhoto button{
+	display: flex;
+	align-items: center;
+	padding: 7px 70px;
+	border-radius: 8px;
+	border: none;
+	color: #2e81f4;
+	font-weight: 600;
+	cursor: pointer;
+	background-color: rgb(46, 129, 244, .15);
+	outline-width: 0;
+}
+.editModal__uploadPhoto > img{
+	width: 50%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin: 30px 0;
+	border: 2px solid rgba(0,0,0,.2);
+}
+.editModal__uploadPhoto__actions{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.editModal__uploadPhoto__actions button{
+	display: flex;
+	padding: 10px 15px;
+	box-shadow: 0px 5px 7px -7px rgba(0,0,0,.15);
+	border: none;
+	border-radius: 5px;
+	margin: 0 5px;
+	cursor: pointer;
+	font-weight: 600;
+	box-sizing: border-box;
+	background-color: rgb(46, 129, 244, .15);
+	outline-width: 0;
+}
+.editModal__uploadPhoto__actions button:last-child{
+	color: #FFF;
+	background-color: #2e81f4;
+}

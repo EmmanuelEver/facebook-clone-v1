@@ -1,0 +1,27 @@
+.comment{
+	display: flex;
+	align-items: flex-start;
+	margin-top: 10px;
+}
+.comment__avatar{
+	margin-right: 10px;
+	width: 35px !important;
+	height: 35px !important;
+}
+.comment__details{
+	flex: 1;
+	background-color: #eff2f5;
+	padding: 8px 15px;
+	border-radius: 25px;
+	box-sizing: border-box;
+}
+.comment__details h5{
+	color: rgba(0,0,0,.7)
+}
+.comment__moreIcon{
+	align-self: center !important;
+	opacity: 0 !important;
+}
+.comment:hover .comment__moreIcon{
+	opacity: 1 !important;
+}

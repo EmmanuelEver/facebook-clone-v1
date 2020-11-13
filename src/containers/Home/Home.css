@@ -1,0 +1,7 @@
+.home__body{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #eff2f5;
+	width: 100%;
+}

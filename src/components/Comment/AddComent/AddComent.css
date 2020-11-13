@@ -1,0 +1,35 @@
+.addComent{
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+.addComent__input{
+	display: flex;
+	width: 100%;
+	background-color: #eff2f5;
+	height: 100%;
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.addComent__input__input{
+	flex-grow: 1;
+}
+.addComent__input__input input{
+	width: 100%;
+	font-size: medium;
+}
+.addComent__input svg{
+	margin-left: 10px;
+	fill: grey;
+	cursor: pointer;
+}
+.addComent__input svg:hover{
+	opacity: .8;
+}
+.addComent__avatar{
+	width: 35px !important;
+	height: 35px !important;
+}

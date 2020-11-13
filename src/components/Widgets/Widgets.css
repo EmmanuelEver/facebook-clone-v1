@@ -1,0 +1,34 @@
+.widgets{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	align-self: stretch;
+
+}
+
+.widgets__sponsors{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	border-bottom: 2px solid lightgrey;
+	position: sticky;
+	top: 85px;
+}
+.widgets__contacts{
+	display: flex;
+	flex-direction: column;
+	position: sticky;
+	top: 400px;
+}
+.widgets__contacts__header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.widgets__sponsors h3, .widgets__contacts__header h3{
+	font-weight: 500;
+	color: grey;
+}

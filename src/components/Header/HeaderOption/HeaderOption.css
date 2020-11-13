@@ -1,0 +1,26 @@
+.headerOption {
+	cursor: pointer;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	border-bottom: 4px solid none;	
+	height: 100%;
+	box-sizing: border-box;
+}
+.headerOption:hover{
+	background-color: #eff2f5;
+	border-radius: 10px;
+	
+
+}
+
+.headerOption .MuiSvgIcon-root {
+	fill: grey;
+
+}
+.headerOption:hover .MuiSvgIcon-root {
+	fill: #2e81f4;
+}
+.headerOption.active{
+	border-bottom: 4px solid #2e81f4;
+}

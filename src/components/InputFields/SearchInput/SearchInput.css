@@ -1,0 +1,16 @@
+.searchInput{
+	display: flex;
+	align-items: center;
+	background-color: #eff2f5;
+	height: 100%;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+
+.searchInput input{
+	border: none;
+	outline-width: 0;
+	background: transparent;
+}

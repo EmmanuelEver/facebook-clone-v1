@@ -1,0 +1,31 @@
+.header{
+	display: flex;
+	width: 100%;
+	position: sticky;
+	background-color: white;
+	z-index: 100;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 5px 8px -9px rgba(0,0,0, .75);
+}
+.header__left{
+	display: flex;
+	align-items: center;
+}
+.header__left img{
+	height: 50px;
+}
+
+.header__center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.header__right{
+	display: flex;
+	align-items: center;
+}

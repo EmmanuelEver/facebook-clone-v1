@@ -1,0 +1,19 @@
+.contact{
+	display: flex;
+	align-items: center;
+	padding: 10px 5px;
+	cursor: pointer;
+}
+.contact:hover{
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.1);
+}
+.contact__avatar{
+	margin-right: 10px;
+	height: 25px;
+	width: 25px;
+}
+.contact h5{
+	font-size: medium;
+	font-weight: 400;
+}

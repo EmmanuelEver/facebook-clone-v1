@@ -1,0 +1,18 @@
+.sidebarItem{
+	display: flex;
+	align-items: center;
+	padding: 7px 10px;
+	cursor: pointer;
+}
+.sidebarItem:hover{
+	background-color: lightgrey;
+	border-radius: 10px;
+}
+.sidebarItem svg{
+	font-size: xx-large;
+	fill: #2e81f4;
+}
+.sidebarItem h5{
+	margin-left: 10px;
+	font-weight: 700;
+}

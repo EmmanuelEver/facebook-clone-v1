@@ -1,0 +1,36 @@
+.story{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	border-radius: 10px;
+	margin-right: 10px;
+	box-shadow: 0px 5px 17px -7px rgba(0,0,0, .75);
+	margin-right: 10px;
+	cursor: pointer;
+	width: 17%;
+	height: 200px;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	transition: all 0.1s ease-in;
+}
+.story:hover{
+	background-position: 10% 100%;
+	background-size: cover;
+}
+.story__avatar{
+	background-color: white;
+	border: 2px solid #2e81f4;
+}
+.story h5{
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	color: white;
+}
+.story__viewed{
+	opacity: .9;
+}
+.story__viewed > .story__avatar{
+	border-color: lightgrey
+}
